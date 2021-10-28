@@ -51,6 +51,16 @@ export class AppComponent {
       id: 7,
       selected: false,
     },
+    {
+      name: 'Uno 1000',
+      id: 7,
+      selected: false,
+    },
+    {
+      name: 'Uno 3000',
+      id: 7,
+      selected: false,
+    },
   ];
 
   // Getting Selected Games and Count
@@ -59,7 +69,7 @@ export class AppComponent {
       return s.selected;
     });
     this.selected_count = this.selected_games.length;
-    //alert(this.selected_games);
+    // alert(this.selected_games);
   }
 
   // Clearing All Selections
